@@ -77,7 +77,7 @@ Author：Wang, Jindong, Cuiling Lan, Chang Liu, Yidong Ouyang, Wenjun Zeng, and 
 - 探讨域泛化算法在现实环境中的作用，并提出了域泛化测试平台DomainBed：  
 [In Search of Lost Domain Generalization](https://arxiv.org/abs/2007.01434)  
  Author：Ishaan Gulrajani, David Lopez-Paz  
-*arXiv preprint arXiv:2007.01434* (2020)
+*arXiv preprint arXiv:2007.01434* (2020)   
 [[DomainBed]](https://github.com/facebookresearch/DomainBed)
 
 
@@ -154,7 +154,7 @@ Author：Shankar, Shiv, Vihari Piratla, Soumen Chakrabarti, Siddhartha Chaudhuri
 [[Code]](https://github.com/joffery/M-ADA)
 
 
-- (**EISNet**) 提出了一个新的领域泛化框架（称为EISNet），利用多任务学习范式，从多源领域的图像的外在关系监督和内在自我监督中同时学习如何跨领域泛化：
+- (**EISNet**) 提出了一个新的领域泛化框架（称为EISNet），利用多任务学习范式，从多源领域的图像的外在关系监督和内在自我监督中同时学习如何跨领域泛化：   
 [Learning from Extrinsic and Intrinsic Supervisions for Domain Generalization](https://link.springer.com/chapter/10.1007/978-3-030-58545-7_10)  
  Author：Shujun Wang, Lequan Yu, Caizi Li, Chi-Wing Fu, Pheng-Ann Heng   
 *Proceedings of the European Conference on Computer Vision* (**ECCV**) (2020)  
@@ -230,7 +230,7 @@ Author：Juwon Kang, Sohyun Lee, Namyup Kim, Suha Kwak
 [[Code]](https://github.com/YBZh/EFDM)
 
 
-- (**DDG**) 将OOD泛化问题形式化为约束性优化问题，称为Disentanglement-constrained Domain Generalization (*DDG*)：
+- (**DDG**) 将OOD泛化问题形式化为约束性优化问题，称为Disentanglement-constrained Domain Generalization (*DDG*)：  
 [Towards Principled Disentanglement for Domain Generalization](https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Towards_Principled_Disentanglement_for_Domain_Generalization_CVPR_2022_paper.html)    
  Author：Hanlin Zhang, Yi-Fan Zhang, Weiyang Liu, Adrian Weller, Bernhard Schölkopf, Eric P. Xing  
 *Conference on Computer Vision and Pattern Recognition* (**CVPR Oral**) (2022)  
@@ -266,27 +266,27 @@ Author：Rui Gong, Wen Li, Yuhua Chen, Luc Van Gool
 [[Code]](https://github.com/ETHRuiGong/DLOW)
 
 
-- (**FSDG**) 通过用风格化的图像增加数据集来纠正域偏移：
+- (**FSDG**) 通过用风格化的图像增加数据集来纠正域偏移：   
 [Frustratingly Simple Domain Generalization via Image Stylization](https://arxiv.org/abs/2006.11207)     
 Author：Somavarapu, Nathan, Chih-Yao Ma, and Zsolt Kira    
 *arXiv preprint arXiv:2006.11207* (2020)    
 [[code]](https://github.com/GT-RIPL/DomainGeneralization-Stylization)
 
 
-- 提出了一种新的异质域泛化方法，即用两种不同的采样策略将多个源域的样本混合起来：
+- 提出了一种新的异质域泛化方法，即用两种不同的采样策略将多个源域的样本混合起来：  
 [Heterogeneous Domain Generalization Via Domain Mixup](https://ieeexplore.ieee.org/abstract/document/9053273)     
 Author：Yufei Wang, Haoliang Li, Alex C. Kot    
 *IEEE International Conference on Acoustics, Speech and Signal Processing* (**ICASSP**) (2020)
 
 
-- (**L2A-OT**) 采用了一个数据生成器来合成伪的新领域的数据，以增强源领域的能力：
+- (**L2A-OT**) 采用了一个数据生成器来合成伪的新领域的数据，以增强源领域的能力：  
 [Learning to Generate Novel Domains for Domain Generalization](https://link.springer.com/chapter/10.1007/978-3-030-58517-4_33)  
  Author：Kaiyang Zhou, Yongxin Yang, Timothy Hospedales，Tao Xiang    
 *Proceedings of the European Conference on Computer Vision* (**ECCV**) (2020)  
 [[code]](https://github.com/EmmaW8/EISNet)
 
 
-- (**DDAIG**) 提出了一种基于深度域对抗性图像生成(*DDAIG*)的新型DG方法：
+- (**DDAIG**) 提出了一种基于深度域对抗性图像生成(*DDAIG*)的新型DG方法：  
 [Deep Domain-Adversarial Image Generation for Domain Generalisation](https://ojs.aaai.org/index.php/AAAI/article/view/7003)  
  Author：Kaiyang Zhou, Yongxin Yang, Timothy Hospedales，Tao Xiang
 *Association for the Advancement of Artificial Intelligence* (**AAAI**) (2020)  
@@ -323,26 +323,26 @@ Author：Daiqing Li, Junlin Yang, Karsten Kreis, Antonio Torralba, Sanja Fidler
 ### Representation learning
 #### Domain-Invariant Representation-Based Methods
 >Domain-invariant representation-based methods aim to reduce the representation discrepancy between multiple source domains in a specific feature space to be domain invariant so that the learned model can have a generalizable capability to the unseen domain.
-- (**DICA**) 基于核的优化算法，通过最小化跨域的不相似性来学习不变的转换：
+- (**DICA**) 基于核的优化算法，通过最小化跨域的不相似性来学习不变的转换：  
 [Domain generalization via invariant feature representation](https://proceedings.mlr.press/v28/muandet13.html)   
 Author：Muandet, Krikamol, David Balduzzi, and Bernhard Schölkopf   
 *International Conference on Machine Learning* (**ICML**) (2013)  
 [[code]](https://github.com/krikamol/dg-dica)
 
 
-- (**MTAE**) 提出了一种新的特征学习算法--多任务自动编码器 (*MTAE*)，通过学习将原始图像转化为多个相关域中的类似物：
+- (**MTAE**) 提出了一种新的特征学习算法--多任务自动编码器 (*MTAE*)，通过学习将原始图像转化为多个相关域中的类似物：  
 [Domain Generalization for Object Recognition With Multi-Task Autoencoders](https://openaccess.thecvf.com/content_iccv_2015/html/Ghifary_Domain_Generalization_for_ICCV_2015_paper.html)   
 Author：Muhammad Ghifary, W. Bastiaan Kleijn, Mengjie Zhang, David Balduzzi   
 *International Conference on Computer Vision* (**ICCV**) (2015)  
 
 
-- (**KDICA**) 为多源领域泛化来开发一种新的面向属性的特征表示，以方便应用现成的分类器来获得高质量的属性检测器：
+- (**KDICA**) 为多源领域泛化来开发一种新的面向属性的特征表示，以方便应用现成的分类器来获得高质量的属性检测器：   
 [Learning Attributes Equals Multi-Source Domain Generalization](https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Gan_Learning_Attributes_Equals_CVPR_2016_paper.html)   
 Author：Chuang Gan, Tianbao Yang, Boqing Gong   
 *Conference on Computer Vision and Pattern Recognition* (**CVPR**) (2016)  
 
 
-- (**ESRand**) 通过减少多领域学习中的分布偏差学习域不变表征，提升模型泛化能力：
+- (**ESRand**) 通过减少多领域学习中的分布偏差学习域不变表征，提升模型泛化能力：   
 [Robust domain generalisation by enforcing distribution invariance](https://eprints.qut.edu.au/115382/)   
 Author：Erfani, Sarah, Baktashmotlagh, Mahsa, Moshtaghi, Masud, Nguyen, Xuan, Leckie, Christopher, Bailey, James, Kotagiri, Rao   
 *International Joint Conference on Artificial Intelligence 25* (**IJCAI**) (2016) 
@@ -354,7 +354,7 @@ Author：Muhammad Ghifary, David Balduzzi, W. Bastiaan Kleijn, Mengjie Zhang
 *IEEE Transactions on Pattern Analysis and Machine Intelligence* (**TPAMI CCF-A**) (2017)  
 
 
-- (**CCSA**) 利用连体结构与对比性损失来解决领域转换和泛化问题：
+- (**CCSA**) 利用连体结构与对比性损失来解决领域转换和泛化问题：  
 [Unified Deep Supervised Domain Adaptation and Generalization](https://openaccess.thecvf.com/content_iccv_2017/html/Motiian_Unified_Deep_Supervised_ICCV_2017_paper.html)   
 Author：Saeid Motiian, Marco Piccirilli, Donald A. Adjeroh, Gianfranco Doretto   
 *International Conference on Computer Vision* (**ICCV**) (2017)  
@@ -384,7 +384,7 @@ Author：Saeid Motiian, Marco Piccirilli, Donald A. Adjeroh, Gianfranco Doretto
 *arXiv preprint arXiv:1911.00804* (2019)
 
 
-- (**MDA**) 提出了多域判别分析 (*MDA*) 学习一个领域不变的特征转换：
+- (**MDA**) 提出了多域判别分析 (*MDA*) 学习一个领域不变的特征转换：  
 [Domain Generalization via Multidomain Discriminant Analysis](https://proceedings.mlr.press/v115/hu20a.html)    
 Author：Hu, Shoubo, Kun Zhang, Zhitang Chen, Laiwan Chan  
 *Conference on Uncertainty in Artificial Intelligence* (**PMLR-UAI**) 2019  
@@ -422,7 +422,7 @@ Author： Udit Maniyar, Joseph K J, Aniket Anand Deshmukh, Urun Dogan, Vineeth N
 *International Conference on Computer Vision* (**ICCV**) (2021)
 
 
-- (**DFDG**) ：在不需要源域标签的情况下，通过类别条件的软标签来协调样本的类别关系，以学习领域不变的类区分特征：
+- (**DFDG**) ：在不需要源域标签的情况下，通过类别条件的软标签来协调样本的类别关系，以学习领域不变的类区分特征：  
 [Robust Domain-Free Domain Generalization with Class-Aware Alignment](https://ieeexplore.ieee.org/abstract/document/9413872)  
  Author：Wenyu Zhang; Mohamed Ragab; Ramon Sagarna  
 *International Conference on Acoustics, Speech, and Signal Processing* (**ICASSP CCF-B**) (2021)
@@ -448,21 +448,21 @@ Author： Udit Maniyar, Joseph K J, Aniket Anand Deshmukh, Urun Dogan, Vineeth N
 
 #### Disentangled Representation Learning-Based Methods
 >Disentangled representation learning-based methods aim to disentangle domain-specific and domain-invariant parts from source data, and then adopt the domain-invariant one for inference on the target domains.
-- (**Undo-Bias**) 提出了一个鉴别性的框架，在训练中直接利用数据集的偏差：
+- (**Undo-Bias**) 提出了一个鉴别性的框架，在训练中直接利用数据集的偏差：  
 [Undoing the damage of dataset bias](https://link.springer.com/chapter/10.1007/978-3-642-33718-5_12)   
 Author：Khosla, Aditya, Tinghui Zhou, Tomasz Malisiewicz, Alexei A. Efros, Antonio Torralba   
 *European Conference on Computer Vision* (**ECCV**) (2012)   
 [[code]](https://github.com/adikhosla/undoing-bias)
 
 
-- 为端到端DG学习开发了一个低秩参数化的CNN模型，其次提出了一个新的DG数据集——PACS，具有更大的域偏移：
+- 为端到端DG学习开发了一个低秩参数化的CNN模型，其次提出了一个新的DG数据集——PACS，具有更大的域偏移：  
 [Deeper, broader and artier domain generalization](https://openaccess.thecvf.com/content_iccv_2017/html/Li_Deeper_Broader_and_ICCV_2017_paper.html)    
 Author：Zhengming Ding, Yun Fu   
 *Proceedings of the IEEE International Conference on Computer Vision* (**ICCV**) (2017)   
 [[code]](http://www.eecs.qmul.ac.uk/~dl307/project_iccv2017)
 
 
-- (**SLRC**) 开发了一个具有结构化低秩约束的深度域泛化框架，通过捕捉多个相关源领域的一致知识来促进未见过的目标域评估：
+- (**SLRC**) 开发了一个具有结构化低秩约束的深度域泛化框架，通过捕捉多个相关源领域的一致知识来促进未见过的目标域评估：  
 [Deep Domain Generalization With Structured Low-Rank Constraint](https://ieeexplore.ieee.org/abstract/document/8053784)    
 Author：Li, Da, Yongxin Yang, Yi-Zhe Song, Timothy M. Hospedales   
 *IEEE Transactions on Image Processing* (**TIP CCF-A**) (2017)
@@ -475,7 +475,7 @@ Author：Alexander H. Liu, Yen-Cheng Liu, Yu-Ying Yeh, Yu-Chiang Frank Wang
 [[Code]](https://github.com/Alexander-H-Liu/UFDN)
 
 
-- (**DADA**) 提出了一种新的深度对抗性分解自动编码器 (*DADA*)来分解潜在空间中的域不变特征：
+- (**DADA**) 提出了一种新的深度对抗性分解自动编码器 (*DADA*)来分解潜在空间中的域不变特征：  
 [DIVA: Domain Invariant Variational Autoencoders](https://proceedings.mlr.press/v121/ilse20a.html)   
 Author：Xingchao Peng, Zijun Huang, Ximeng Sun, Kate Saenko  
 *International Conference on Machine Learning* (**PMLR-ICML**) (2019)  
@@ -489,21 +489,21 @@ Author：Xingchao Peng, Zijun Huang, Ximeng Sun, Kate Saenko
 [[code]](https://github.com/prithv1/DMG)
 
 
-- 提出了一种高效的跨域人脸脸部攻击检测的分解表征学习，包括分解表征学习(DR-Net)和多域学习(MD-Net)：
+- 提出了一种高效的跨域人脸脸部攻击检测的分解表征学习，包括分解表征学习(DR-Net)和多域学习(MD-Net)：    
 [Cross-domain Face Presentation Attack Detection via Multi-domain Disentangled Representation Learning](https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Cross-Domain_Face_Presentation_Attack_Detection_via_Multi-Domain_Disentangled_Representation_Learning_CVPR_2020_paper.html)    
  Author：Guoqing Wang, Hu Han, Shiguang Shan, Xilin Chen  
 *Conference on Computer Vision and Pattern Recognition* (**CVPR**) (2020)  
 [[code]](https://github.com/prithv1/DMG)
 
 
-- (**CSD**) 提出了Common Specific Decomposition (*CSD*)，联合学习了一个通用组件和一个特定域组件，训练后，特定域的成分被丢弃，只有共同成分被保留：
+- (**CSD**) 提出了Common Specific Decomposition (*CSD*)，联合学习了一个通用组件和一个特定域组件，训练后，特定域的成分被丢弃，只有共同成分被保留：  
 [Efficient Domain Generalization via Common-Specific Low-Rank Decomposition](https://proceedings.mlr.press/v119/piratla20a.html)   
 Author：Vihari Piratla, Praneeth Netrapalli, Sunita Sarawagi  
 *International Conference on Machine Learning* (**PMLR-ICML**) (2020)  
 [[code]](https://github.com/vihari/CSD)
 
 
-- (**DIVA**) 提出了Domain Invariant Variational Autoencoder (DIVA)，通过学习三个独立的潜在子空间来解决DG问题：
+- (**DIVA**) 提出了Domain Invariant Variational Autoencoder (DIVA)，通过学习三个独立的潜在子空间来解决DG问题：  
 [DIVA: Domain Invariant Variational Autoencoders](https://proceedings.mlr.press/v121/ilse20a.html)   
 Author：Vihari Piratla, Praneeth Netrapalli, Sunita Sarawagi  
 *International Conference on Machine Learning* (**PMLR-ICML Workshop**) (2020)  
@@ -522,7 +522,7 @@ Author： Xin Jin, Cuiling Lan, Wenjun Zeng, Zhibo Chen, Li Zhang
 *IEEE International Conference on Image Processing* (**ICIP CCF-C**) (2021)
 
 
-- (**DecAug**) ：提出了一种新颖的分解特征表示和语义增强的方法，用于OoD泛化   
+- (**DecAug**) ：提出了一种新颖的分解特征表示和语义增强的方法，用于OoD泛化：  
 [DecAug: Out-of-Distribution Generalization via Decomposed Feature Representation and Semantic Augmentation](https://ojs.aaai.org/index.php/AAAI/article/view/16829)  
 Author： Haoyue Bai, Rui Sun, Lanqing Hong, Fengwei Zhou, Nanyang Ye, Han-Jia Ye, S.-H. Gary Chan, Zhenguo Li      
 *Association for the Advancement of Artificial Intelligence* (**AAAI**) (2021)
@@ -548,14 +548,14 @@ Author： Xin Jin, Cuiling Lan, Wenjun Zeng, Zhibo Chen
 *IEEE Transactions on Multimedia* (**TMM CCF-B**) (2021)
 
 
-- (**RobustNet**) 将特定领域的风格和在特征表征的高阶统计（即特征协方差）中编码的域不变的内容分开，并有选择地只删除导致领域转移的风格信息：
+- (**RobustNet**) 将特定领域的风格和在特征表征的高阶统计（即特征协方差）中编码的域不变的内容分开，并有选择地只删除导致领域转移的风格信息：  
 [RobustNet: Improving Domain Generalization in Urban-Scene Segmentation via Instance Selective Whitening](https://openaccess.thecvf.com/content/CVPR2021/html/Choi_RobustNet_Improving_Domain_Generalization_in_Urban-Scene_Segmentation_via_Instance_Selective_CVPR_2021_paper.html)    
  Author：Chattopadhyay, Prithvijit, Yogesh Balaji, Judy Hoffman.  
 *Conference on Computer Vision and Pattern Recognition* (**CVPR**) (2021)  
 [[code]](https://github.com/shachoi/RobustNet)
 
 
-- (**DDG**) 将OOD泛化问题形式化为约束性优化问题，称为Disentanglement-constrained Domain Generalization (*DDG*)：
+- (**DDG**) 将OOD泛化问题形式化为约束性优化问题，称为Disentanglement-constrained Domain Generalization (*DDG*)：  
 [Towards Principled Disentanglement for Domain Generalization](https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_Towards_Principled_Disentanglement_for_Domain_Generalization_CVPR_2022_paper.html)    
  Author：Hanlin Zhang, Yi-Fan Zhang, Weiyang Liu, Adrian Weller, Bernhard Schölkopf, Eric P. Xing  
 *Conference on Computer Vision and Pattern Recognition* (**CVPR**) (2022)  
@@ -566,14 +566,14 @@ Author： Xin Jin, Cuiling Lan, Wenjun Zeng, Zhibo Chen
 > Some methods also use some machine learning paradigms to solve DG tasks.
 #### Ensemble Learning-Based Methods
 > Ensemble learning usually combines multiple models, such as classifiers or experts, to enhance the power of models to make accurate prediction.
-- (**LRE-SVM**) 利用多个潜在源域的低秩结构来实现域的泛化：
+- (**LRE-SVM**) 利用多个潜在源域的低秩结构来实现域的泛化：  
 [Exploiting low-rank structure from latent domains for domain generalization](https://link.springer.com/chapter/10.1007/978-3-319-10578-9_41)   
 Author：Xu, Zheng, Wen Li, Li Niu, and Dong Xu   
 *European Conference on Computer Vision* (**ECCV**) (2014)   
 [[code]](http://www.vision.ee.ethz.ch/~liwenw/papers/Xu_ECCV2014_codes.zip)
 
 
-- (**MVDG**) 使用具有多种类型特征（即多视角特征）的源域样本来学习具有泛化能力的分类器  
+- (**MVDG**) 使用具有多种类型特征（即多视角特征）的源域样本来学习具有泛化能力的分类器：    
 [Multi-view domain generalization for visual recognition](https://openaccess.thecvf.com/content_iccv_2015/html/Niu_Multi-View_Domain_Generalization_ICCV_2015_paper.html)  
 Author：Niu, Li, Wen Li, and Dong Xu  
 *Proceedings of the IEEE International Conference on Computer Vision* (**ICCV**) (2015)
@@ -615,7 +615,7 @@ Author： Quande Liu, Qi Dou, Lequan Yu, Pheng Ann Heng
 *TEEE Transactions on Medical Imaging* (**TMI CCF-B**) (2020)
 
 
-- (**GCFN**) 提出了一个广义的卷积森林网络来学习一个特征空间，以最大化单个树分类器的强度，同时最小化各自的相关性：
+- (**GCFN**) 提出了一个广义的卷积森林网络来学习一个特征空间，以最大化单个树分类器的强度，同时最小化各自的相关性：  
 [Generalized Convolutional Forest Networks for Domain Generalization and Visual Recognition](https://openreview.net/pdf?id=H1lxVyStPH)  
 Author： Ryu, Jongbin, Gitaek Kwon, Ming-Hsuan Yang, Jongwoo Lim  
 *International Conference on Learning Representations* (**ICLR**) 2020
@@ -655,7 +655,7 @@ Author：Balaji, Yogesh, Swami Sankaranarayanan, and Rama Chellappa
 *Advances in Neural Information Processing Systems* (**NeurIPS**) (2018)
 
 
-- (**MLDG**) 首次提出用于DG的元学习方法，通过在每个小批次中合成虚拟测试域来模拟训练期间的训练/测试域偏移：
+- (**MLDG**) 首次提出用于DG的元学习方法，通过在每个小批次中合成虚拟测试域来模拟训练期间的训练/测试域偏移：  
 [Learning to generalize: Meta-learning for domain generalization](https://ojs.aaai.org/index.php/AAAI/article/view/11596)  
 Author：Li, Da, Yongxin Yang, Yi-Zhe Song, Timothy M. Hospedales  
 *AAAI Conference on Artificial Intelligence* (**AAAI**) 2018  
@@ -732,7 +732,7 @@ Author：Yuyang Zhao, Zhun Zhong, Fengxiang Yang, Zhiming Luo, Yaojin Lin, Shaoz
 
 
 #### Regularization-Based Methods
-- (**MetaReg**) 用一个新的正则化函数来编码域泛化的概念，并提出了在 "学会学习"（或）元学习框架中寻找这样一个正则化函数的问题   
+- (**MetaReg**) 用一个新的正则化函数来编码域泛化的概念，并提出了在 "学会学习"（或）元学习框架中寻找这样一个正则化函数的问题：   
 [MetaReg: Towards Domain Generalization using Meta-Regularization](https://proceedings.neurips.cc/paper/2018/hash/647bba344396e7c8170902bcf2e15551-Abstract.html)    
 Author：Balaji, Yogesh, Swami Sankaranarayanan, and Rama Chellappa   
 *Advances in Neural Information Processing Systems* (**NeurIPS**) 2018
@@ -814,6 +814,7 @@ Author： Xin Jin, Cuiling Lan, Wenjun Zeng, Zhibo Chen
 [A Fourier-Based Framework for Domain Generalization](https://openaccess.thecvf.com/content/CVPR2021/html/Xu_A_Fourier-Based_Framework_for_Domain_Generalization_CVPR_2021_paper.html)  
  Author：Qinwei Xu, Ruipeng Zhang, Ya Zhang, Yanfeng Wang, Qi Tian  
 *Conference on Computer Vision and Pattern Recognition* (**CVPR**) (2021)
+
 
 - (**GpreBN**) 重新审视了批量归一化(BN)，并提出了一种新的测试阶段的BN层设计：   
 [Test-time Batch Normalization](https://arxiv.org/abs/2205.10210)  
@@ -984,7 +985,7 @@ Author：Fengchun Qiao, Xi Peng
 [[Code]](https://github.com/lileicv/PDEN)
 
 
-- (**EISNet**) 提出了一个新的领域泛化框架（称为EISNet），利用多任务学习范式，从多源领域的图像的外在关系监督和内在自我监督中同时学习如何跨领域泛化：
+- (**EISNet**) 提出了一个新的领域泛化框架（称为EISNet），利用多任务学习范式，从多源领域的图像的外在关系监督和内在自我监督中同时学习如何跨领域泛化：  
 [Learning from Extrinsic and Intrinsic Supervisions for Domain Generalization](https://link.springer.com/chapter/10.1007/978-3-030-58545-7_10)  
  Author：Shujun Wang, Lequan Yu, Caizi Li, Chi-Wing Fu, Pheng-Ann Heng   
 *Proceedings of the European Conference on Computer Vision* (**ECCV**) 2020  
