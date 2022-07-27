@@ -33,7 +33,6 @@ This is a repository for organizing papers ,codes, and etc related to **Domain G
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 # Papers (ongoing)
-> We list papers, implementation code (the unofficial code is marked with *), etc, in the order of year and from journals to conferences. Note that some papers may fall into multiple categories.
 
 ## Survey papers
 - 计算机视觉领域的DG综述：   
