@@ -883,6 +883,13 @@ Author：Arjovsky, Martin and Bottou, Leon and Gulrajani, Ishaan and Lopez-Paz, 
  Author：Quande Liu, Cheng Chen1, Qi Dou1, Pheng-Ann Heng  
 *Association for the Advancement of Artificial Intelligence 36* (**AAAI**) (2022)
 
+
+- (**DDG**) 探索一种无需训练的机制来调整模型以适应不可知的目标领域。将网络参数解耦为静态和动态部分，以区分域共享和域特定的特征，其中后者由元调整器针对不同域的新样本进行动态调整：   
+[Dynamic Domain Generalization](https://arxiv.org/abs/2205.13913)  
+ Author：Zhishu Sun, Zhifeng Shen, Luojun Lin, Yuanlong Yu, Zhifeng Yang, Shicai Yang, Weijie Chen  
+*International Joint Conference on Artificial Intelligence* (**IJCAI**) (2022)  
+[[Code]](https://github.com/MetaVisionLab/DDG)
+
 ### Others
 - 将图像通过传统算法转换成shock graph，可以简单理解成一个封闭曲线以及该曲线的中轴线，有了图结构之后再利用GNN来做跨域分类：  
 [Shape-Biased Domain Generalization via Shock Graph Embeddings](https://openaccess.thecvf.com/content/ICCV2021/html/Narayanan_Shape-Biased_Domain_Generalization_via_Shock_Graph_Embeddings_ICCV_2021_paper.html)  
