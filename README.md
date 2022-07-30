@@ -714,6 +714,13 @@ Author：Yuyang Zhao, Zhun Zhong, Fengxiang Yang, Zhiming Luo, Yaojin Lin, Shaoz
 *Conference on Computer Vision and Pattern Recognition* (**CVPR**) (2022)
 
 
+- (**DDG**) 探索一种无需训练的机制来调整模型以适应不可知的目标领域。将网络参数解耦为静态和动态部分，以区分域共享和域特定的特征，其中后者由元调整器针对不同域的新样本进行动态调整：   
+[Dynamic Domain Generalization](https://arxiv.org/abs/2205.13913)  
+ Author：Zhishu Sun, Zhifeng Shen, Luojun Lin, Yuanlong Yu, Zhifeng Yang, Shicai Yang, Weijie Chen  
+*International Joint Conference on Artificial Intelligence* (**IJCAI**) (2022)  
+[[Code]](https://github.com/MetaVisionLab/DDG)
+
+
 #### Gradient Operation-Based Methods
 > Gradient operation-based methods mainly consider using gradient information to force the network learn generalized representations.
 - (**MASF**) 采用了一种与模型无关的学习范式，通过基于梯度的元训练和元测试程序，将优化暴露在领域偏移中：  
