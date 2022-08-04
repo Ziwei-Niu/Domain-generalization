@@ -897,6 +897,12 @@ Author：Arjovsky, Martin and Bottou, Leon and Gulrajani, Ishaan and Lopez-Paz, 
 *International Joint Conference on Artificial Intelligence* (**IJCAI**) (2022)  
 [[Code]](https://github.com/MetaVisionLab/DDG)
 
+
+- (**TAF-Cal**) 通过在测试时用源原型来校准目标风格，减轻了训练期间对目标域数据没有了解的压力：   
+[Test-time Fourier Style Calibration for Domain Generalization](https://arxiv.org/abs/2205.06427)  
+ Author：Xingchen Zhao, Chang Liu, Anthony Sicilia, Seong Jae Hwang, Yun Fu  
+*arXiv preprint arXiv:2205.06427* (2022) 
+
 ### Others
 - 将图像通过传统算法转换成shock graph，可以简单理解成一个封闭曲线以及该曲线的中轴线，有了图结构之后再利用GNN来做跨域分类：  
 [Shape-Biased Domain Generalization via Shock Graph Embeddings](https://openaccess.thecvf.com/content/ICCV2021/html/Narayanan_Shape-Biased_Domain_Generalization_via_Shock_Graph_Embeddings_ICCV_2021_paper.html)  
