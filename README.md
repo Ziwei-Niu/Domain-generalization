@@ -1121,6 +1121,12 @@ Author：Junkun Yuan, Xu Ma, Defang Chen, Kun Kuang, Fei Wu, Lanfen Lin
 [[Code]](https://github.com/junkunyuan/CSAC)
 
 
+- (**FedKD**) 提出了一种基于知识蒸馏的联邦跨域自适应的解决方法，将多个本地训练的模型对公开数据集的预测的均值蒸馏给中央模型，以实现知识的转移，其思路可以借鉴在DG上：   
+[Preserving Privacy in Federated Learning with Ensemble Cross-Domain Knowledge Distillation](https://www.aaai.org/AAAI22Papers/AISI-1420.GongX.pdf)  
+Author：Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen, David Doermann, Arun Innanje   
+*Association for the Advancement of Artificial Intelligence* (**AAAI**) (2022)   
+
+
 # Datasets
 > We list the widely used benchmark datasets for domain generalization including classification and segmentation. 
 
