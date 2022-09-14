@@ -1125,6 +1125,7 @@ Author：Junkun Yuan, Xu Ma, Defang Chen, Kun Kuang, Fei Wu, Lanfen Lin
 [Preserving Privacy in Federated Learning with Ensemble Cross-Domain Knowledge Distillation](https://www.aaai.org/AAAI22Papers/AISI-1420.GongX.pdf)  
 Author：Xuan Gong, Abhishek Sharma, Srikrishna Karanam, Ziyan Wu, Terrence Chen, David Doermann, Arun Innanje   
 *Association for the Advancement of Artificial Intelligence* (**AAAI**) (2022)   
+[[Code]](https://github.com/gong-xuan/FedKD)  
 
 
 # Datasets
