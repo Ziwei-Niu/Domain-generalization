@@ -446,6 +446,12 @@ Author： Udit Maniyar, Joseph K J, Aniket Anand Deshmukh, Urun Dogan, Vineeth N
 *Conference on Computer Vision and Pattern Recognition* (**CVPR**) (2022)
 
 
+- (**XDED**) 提出了一种跨域集合蒸馏方法（cross-domain ensemble distillation），通过学习域不变表征并鼓励模型达到flat minima：  
+[Cross-Domain Ensemble Distillation for Domain Generalization](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/4593_ECCV_2022_paper.php)  
+ Author：Kyungmoon Lee, Sungyeon Kim, Suha Kwak   
+*European Conference on Computer Vision* (**ECCV**) (2022)
+
+
 #### Disentangled Representation Learning-Based Methods
 >Disentangled representation learning-based methods aim to disentangle domain-specific and domain-invariant parts from source data, and then adopt the domain-invariant one for inference on the target domains.
 - (**Undo-Bias**) 提出了一个鉴别性的框架，在训练中直接利用数据集的偏差：  
@@ -645,6 +651,12 @@ Author：Kaiyang Zhou, Yongxin Yang, Yu Qiao, Tao Xiang
 Author：Xingxuan Zhang, Linjun Zhou, Renzhe Xu, Peng Cui, Zheyan Shen, Haoxin Liu    
 *Conference on Computer Vision and Pattern Recognition* (**CVPR**) (2022)   
 [[code]](https://github.com/hlzhang109/DDG)
+
+
+- (**XDED**) 提出了一种跨域集合蒸馏方法（cross-domain ensemble distillation），通过学习域不变表征并鼓励模型达到flat minima：  
+[Cross-Domain Ensemble Distillation for Domain Generalization](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/4593_ECCV_2022_paper.php)  
+ Author：Kyungmoon Lee, Sungyeon Kim, Suha Kwak   
+*European Conference on Computer Vision* (**ECCV**) (2022)
 
 
 #### Meta-Learning-Based Methods
