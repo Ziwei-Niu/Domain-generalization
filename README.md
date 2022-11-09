@@ -656,7 +656,7 @@ Author：Xingxuan Zhang, Linjun Zhou, Renzhe Xu, Peng Cui, Zheyan Shen, Haoxin L
 - (**XDED**) 提出了一种跨域集合蒸馏方法（cross-domain ensemble distillation），通过学习域不变表征并鼓励模型达到flat minima：  
 [Cross-Domain Ensemble Distillation for Domain Generalization](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/4593_ECCV_2022_paper.php)  
  Author：Kyungmoon Lee, Sungyeon Kim, Suha Kwak   
-*European Conference on Computer Vision* (**ECCV**) (2022)
+*European Conference on Computer Vision* (**ECCV**) (2022）
 
 
 #### Meta-Learning-Based Methods
