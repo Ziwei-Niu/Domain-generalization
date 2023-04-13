@@ -1165,14 +1165,6 @@ Author：Arjovsky, Martin and Bottou, Leon and Gulrajani, Ishaan and Lopez-Paz, 
 ## Single Domain Generalization
 > Single domain generalization aims learn a generalized model only use one domain, which is more challenge but more realistic.
 
-<details>
-<summary>2023</summary>
-
-- (**SLAug**) This paper rethinking data augmentation for single domain generalization, which hypothesizes that unseen target data can be sampled from a linear combination of class number random variables. Accordingly, data augmentation can be readily made by sampling the random variables through a general form.
-[Rethinking Data Augmentation for Single-source Domain Generalization in Medical Image Segmentation]
-Author: Zixian Su, Kai Yao, Xi Yang, Qiufeng Wang, Jie Sun, Kaizhu Huang
-** (**IJCAI**) (2023 CCFA)
-<details>
  
 <details>
 <summary>2022</summary>
